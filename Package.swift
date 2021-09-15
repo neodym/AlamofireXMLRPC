@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "AlamofireXMLRPC",
     dependencies: [
-        .Package(url: "https://github.com/Alamofire/Alamofire", majorVersion: 5),
-        .Package(url: "https://github.com/tadija/AEXML.git", majorVersion: 4)
+        .package(url: "https://github.com/Alamofire/Alamofire", majorVersion: 5),
+        .package(url: "https://github.com/tadija/AEXML.git", majorVersion: 4)
     ]
 )
