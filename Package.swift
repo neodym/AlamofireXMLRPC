@@ -3,6 +3,9 @@ import PackageDescription
 
 let package = Package(
     name: "AlamofireXMLRPC",
+    platforms: [
+        .iOS(.v10)
+    ],
     products: [
         .library(
             name: "AlamofireXMLRPC",
