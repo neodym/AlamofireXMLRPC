@@ -8,10 +8,7 @@ let package = Package(
         .package(url: "https://github.com/tadija/AEXML.git", from: "4.0.0")
     ],
     products: [
-        .library(
-            name: "AlamofireXMLRPC",
-            targets: ["AlamofireXMLRPC"]
-        )
+        .library(name: "AlamofireXMLRPC", targets: ["AlamofireXMLRPC"])
     ],
     targets: [
         .target(
