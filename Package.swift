@@ -4,7 +4,9 @@ import PackageDescription
 let package = Package(
     name: "AlamofireXMLRPC",
     platforms: [
-        .iOS(.v10)
+        .iOS(.v10),
+        .tvOS(.v12),
+        .watchOS(.v5)
     ],
     products: [
         .library(
